@@ -6,6 +6,10 @@ if (document.readyState !== 'loading') {
 
 function init() {
     // DOM is ready
+}
+
+
+function playTing() {
     //create a synth and connect it to the main output (your speakers)
     const synth = new Tone.Synth().toDestination();
 
