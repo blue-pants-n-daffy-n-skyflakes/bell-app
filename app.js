@@ -6,6 +6,7 @@ if (document.readyState !== 'loading') {
 
 function init() {
     // DOM is ready
+    document.getElementById('btn-ting').addEventListener('click', playTing);
 }
 
 
